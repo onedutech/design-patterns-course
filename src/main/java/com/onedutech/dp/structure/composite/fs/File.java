@@ -8,6 +8,6 @@ public class File extends Composante {
 
     @Override
     public void afficher() {
-        System.out.println(getTab()+"- File => "+name);
+        System.out.println(getTab() + "- File => " + name);
     }
 }

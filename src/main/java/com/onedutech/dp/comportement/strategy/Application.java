@@ -4,6 +4,7 @@ public class Application {
     public static void main(String[] args) {
         Context ctx = new Context();
         System.out.println("Stratégie 1:");
+        ctx.effectuerOperation();
         ctx.setStrategy(new StrategyImpl1());
         ctx.effectuerOperation();
         System.out.println("Stratégie 2:");

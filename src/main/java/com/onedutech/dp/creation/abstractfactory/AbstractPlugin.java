@@ -1,5 +1,5 @@
 package com.onedutech.dp.creation.abstractfactory;
 
-public interface AbstractPlugin	{
-    public void traitement();
+public interface AbstractPlugin {
+    void traitement();
 }

@@ -8,7 +8,6 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Context context = new Context();
         context.effectuerOperation();
-
         Scanner scanner = new Scanner(System.in);
         Map<String, Strategy> strategyMap = new HashMap<>();
         Strategy strategy;

@@ -5,13 +5,13 @@ import java.util.Map;
 
 public class FabriquePoidsMouche {
 
-    private Map<String, PoidsMouche> poidsMouchesPartages = new HashMap<String, PoidsMouche>();
+    private final Map<String, PoidsMouche> poidsMouchesPartages = new HashMap<String, PoidsMouche>();
 
     public FabriquePoidsMouche() {
-        poidsMouchesPartages.put("je" , new PoidsMoucheConcret("je"));
-        poidsMouchesPartages.put("suis" , new PoidsMoucheConcret("suis"));
-        poidsMouchesPartages.put("poids" , new PoidsMoucheConcret("poids"));
-        poidsMouchesPartages.put("mouche" , new PoidsMoucheConcret("mouche"));
+        poidsMouchesPartages.put("je", new PoidsMoucheConcret("je"));
+        poidsMouchesPartages.put("suis", new PoidsMoucheConcret("suis"));
+        poidsMouchesPartages.put("poids", new PoidsMoucheConcret("poids"));
+        poidsMouchesPartages.put("mouche", new PoidsMoucheConcret("mouche"));
     }
 
     public PoidsMouche getPoidsMouche(String val) {
